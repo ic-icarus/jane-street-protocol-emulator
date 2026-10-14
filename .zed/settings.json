@@ -1,0 +1,21 @@
+{
+    "languages": {
+        "SystemVerilog": {
+            "format_on_save": "on",
+            "language_servers": ["verible"],
+            "formatter": {
+                "external": {
+                    "command": "verible-verilog-format",
+                    "arguments": ["-"]
+                }
+            }
+        }
+    },
+    "lsp": {
+        "verible": {
+            "binary": {
+                "path": "verible-verilog-ls"
+            }
+        }
+    }
+}

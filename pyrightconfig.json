@@ -1,0 +1,17 @@
+{
+  "include": [
+    "test"
+  ],
+  "venvPath": "/ttsetup",
+  "venv": "venv",
+  "executionEnvironments": [
+    {
+      "root": "test",
+      "extraPaths": [
+        "/ttsetup/venv/lib/python3.12/site-packages",
+        "/ttsetup/tt-support-tools"
+      ]
+    }
+  ],
+  "typeCheckingMode": "basic",
+}

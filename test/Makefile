@@ -4,9 +4,9 @@
 # defaults
 SIM ?= icarus
 FST ?= -fst # Use more efficient FST format
-TOPLEVEL_LANG ?= verilog
+TOPLEVEL_LANG ?= verilog # This should also cover SV
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = project.v
+PROJECT_SOURCES = tt_um_ic_icarus_protocol_emulator.sv
 
 ifneq ($(GATES),yes)
 
